@@ -1,0 +1,80 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    background: #FFFFFF;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 125px;
+
+}
+
+h1 {
+    margin-top: 128px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.interior {
+    margin-top: 30px;
+    padding-top: 379px;
+    padding-left: 40px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resourses/rect.png');
+}
+
+.text-img {
+    width: 430px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color:#FFFFFF;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    padding-top: 150px;
+    text-align: left;
+}
+
+.discription {
+font-size: 45px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: -0.03em;
+text-align: left;
+margin-top: 30px;
+}
+
+a {
+    border: 1px solid #AD1818;
+    margin-top: 30px;
+    width: 255px;
+    height: 67px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 27.32px;
+    text-decoration: none; 
+    display: inline-block;
+    color: #AD1818;
+    background: white;
+    padding: 20px 40px 20px 40px;
+}
+
+a:hover {
+    color: white;
+    background-color: #AD1818;
+}
