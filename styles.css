@@ -50,15 +50,15 @@ h2 {
 }
 
 .discription {
-font-size: 45px;
-width: 1048px;
-line-height: 61px;
-letter-spacing: -0.03em;
-text-align: left;
-margin-top: 30px;
+    font-size: 45px;
+    width: 1048px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-top: 30px;
 }
 
-a {
+.podrob {
     border: 1px solid #AD1818;
     margin-top: 30px;
     width: 255px;
@@ -67,14 +67,48 @@ a {
     text-align: center;
     border-radius: 5px;
     line-height: 27.32px;
-    text-decoration: none; 
     display: inline-block;
-    color: #AD1818;
-    background: white;
+    text-decoration: none; 
+    color: white;
+    background: #AD1818;
     padding: 20px 40px 20px 40px;
 }
 
-a:hover {
-    color: white;
-    background-color: #AD1818;
+.podrob:hover {
+    color: #AD1818;
+    background-color: white;
+}
+
+.title {
+    padding-top: 150px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 25.59px; 
+    width: 79px;
+}
+
+.item_img {
+    width: 1150px;
+    height: 450px;
+}
+
+.item_img_2 {
+    padding-top: 90px;
+}
+
+.text {
+    font-size: 30px;
+    padding-top: 15px;
+    line-height: 40.98px;
+}
+
+.text_perehod {
+    padding-left: 2px;
+    padding-top: 15px;
+    width: 127px;
+    font-size: 20px;
+    line-height: 27.32px;
+    display: inline;
+    text-decoration: none;
+    color: #AD1818;    
 }
