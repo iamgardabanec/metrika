@@ -107,7 +107,7 @@ h2 {
     width: 127px;
     font-size: 20px;
     line-height: 27.32px;
-    display: inline;
+    display: inline-block;
     text-decoration: none;
     color: #AD1818;    
 }
