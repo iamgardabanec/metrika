@@ -87,10 +87,6 @@ h2 {
     width: 79px;
 }
 
-.item {
-    margin-bottom: 90px;
-}
-
 .item:first-child img {
     width: 1150px;
     height: 450px;
