@@ -1,0 +1,168 @@
+body{
+
+     font-family: "Manrope", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     }
+
+.container{
+    margin: 0 auto;
+    width: 1400px;
+    background: #FFFFFF;
+    padding-left: 125px;
+    border: 1px solid red;
+
+}
+h1 {
+    color: #121212;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 128px 319px 30px 0px;
+    width: 956px;
+    letter-spacing: -0.03em;
+}
+
+.interer {
+    background-image: url('../resources/one.png');
+    width: 1150px;
+    height: 500px;
+    margin: 0px 125px 150px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative
+}
+
+.interer-text {
+    width: 430px;
+    height: 81px;
+    font-size: 17px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 379px;
+    left: 40px;
+    bottom: 40px;
+
+}
+
+h2 {
+    width: 51px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    margin: 0px 0px 30px 0px;
+}
+
+.studya {
+    width: 1048px;
+    height: 366px;
+    font-size: 45px;
+    line-height: 61.47px;
+    letter-spacing: -0.03em;
+    margin: 0px 224px 30px 0px;
+}
+
+.knopka {
+    display: inline-block;
+    margin: 0px 1020px 150px 0px;
+    width: 255px;
+    height: 67px;
+    background: #AD1818;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 27.32px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+}
+
+.proekt-h { 
+    margin-bottom: 30px;
+    width: 79px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03px;
+}
+
+.proekt {
+    width: 1150px;
+}
+
+.item{
+    margin-bottom: 90px;
+}
+
+.item p {
+    width: 501px;
+    height: 41px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    line-height: 40.98px;
+}
+
+.perehod {
+    text-decoration: none;
+    width: 127px;
+    height: 27px;
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #AD1818;
+
+}
+
+.look {
+    display: block;
+    width: 1150px;
+    height: 153px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 56px 0px 56px 0px;
+    color: #AD1818;
+    line-height: 40.98px;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+
+.look:hover{
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+
+.uslugi{
+    width: 1400px;
+    height: 1844px;
+    padding: 150px 124px 150px 127px;
+    background-color: #121212;
+    margin: 0 auto;
+}
+
+.uslugi-item{
+    margin-bottom: 60px;
+}
+
+.uslugi-txt {
+    width: 66px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    margin-bottom: 34px;
+    color: #FFFFFF;
+}
+
+.usl-par{
+    height: 41px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
