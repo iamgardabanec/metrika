@@ -24,7 +24,7 @@ h1 {
 }
 
 .interer {
-    background-image: url('../resources/one.png');
+    background-image: url('one.png');
     width: 1150px;
     height: 500px;
     margin: 0px 125px 150px 0px;
