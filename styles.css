@@ -1,24 +1,61 @@
+html{
+    scroll-behavior:}
 body{
 
      font-family: "Manrope", sans-serif;
      font-optical-sizing: auto;
      font-weight: 400;
      font-style: normal;
-     }
+}
+
+.osnova{
+    width: 1400px;
+    margin: 0 auto;
+}
 
 .container{
     margin: 0 auto;
     width: 1400px;
     background: #FFFFFF;
-    padding-left: 125px;
-    border: 1px solid red;
 
 }
+
+.one_block{
+    padding-left: 125px;
+}
+
+header{
+    width: 1151px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+.golovka{
+    float: right;
+}
+
+.nav_link{
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-decoration: none;
+    color: #121212;
+}
+
+.nav_link:hover{
+    opacity: 0.5;
+    border-bottom: 1px solid #000000;
+}
+
 h1 {
     color: #121212;
     font-size: 60px;
     line-height: 60px;
-    margin: 128px 319px 30px 0px;
+    margin: 70px 319px 30px 0px;
     width: 956px;
     letter-spacing: -0.03em;
 }
@@ -38,7 +75,7 @@ h1 {
     height: 81px;
     font-size: 17px;
     line-height: 27.32px;
-    letter-spacing: -0.03em;
+    letter-spacing: 1.2px;
     color: #FFFFFF;
     position: absolute;
     top: 379px;
@@ -75,6 +112,7 @@ h2 {
     color: #FFFFFF;
     line-height: 27.32px;
     font-size: 18px;
+    letter-spacing: 0.5px;
     text-decoration: none;
     padding: 20px 40px 20px 40px;
 }
@@ -98,7 +136,7 @@ h2 {
 
 .item p {
     width: 501px;
-    height: 41px;
+    height: 51px;
     margin-bottom: 15px;
     font-size: 26px;
     line-height: 40.98px;
@@ -136,12 +174,17 @@ h2 {
     color: #FFFFFF;
 }
 
-.uslugi{
+.container-black{
     width: 1400px;
-    height: 1844px;
-    padding: 150px 124px 150px 127px;
-    background-color: #121212;
     margin: 0 auto;
+}
+
+.uslugi{   
+    
+    padding: 151px 125px 150px 127px;
+    height: 1844px;
+    margin: 0 auto;
+    background-color: #121212;
 }
 
 .uslugi-item{
@@ -165,4 +208,126 @@ h2 {
     letter-spacing: -0.03em;
     color: #FFFFFF;
     margin-top: 15px;
+}
+
+.zk_lesnoy{
+    width: 1400px;
+    height: 717px;
+    background-image: url('Rectangle 12.png');
+    background-size: no-repeat;
+    position: relative;
+    margin: 0 auto;
+}
+
+.zk-txt{
+    width: 443px;
+    height: 82px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    top: 575px;
+    left: 125px;
+    bottom: 60px;
+    right: 832px;
+}
+
+.long{
+    width: 473px;
+    height: 217px;
+   
+    margin-top: 186px;
+    margin-left: 124px;
+    bottom: 150px;
+
+}
+.phone{
+    width: 90px;
+    height: 25px;
+}
+
+.phone:before{
+    content: '';
+    display: block;
+    background-image: url('phone.png');
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -4px;
+    margin-bottom: 12px;
+}
+
+.nomber{
+    padding-top: 57px;
+}
+
+
+.nomer{
+    width: 472px;
+    height: 60px;
+    text-decoration: none;
+    color: #121212;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.pochta{
+    height: 60px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.pochta-txt{
+    width: 412px;
+    height: 60px;
+    padding-top: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #121212;
+    border-bottom: 2px solid #121212;
+    opacity: 50%;
+}
+
+footer{
+    width: 1400px;
+    height: 229px;
+    background-color: #121212;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.footer-nav{
+    padding-right: 470px;
+    padding-top: 60px;
+    padding-left: 480px;
+}
+
+.nav_lin{
+    margin-left: 50px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav_lin:nth-child(1){
+margin-left: 0px;}
+
+.footer-end{
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    opacity: 50%;
+    color: #FFFFFF;
+    margin-top: 87px;
+    text-align: center;
+
 }
