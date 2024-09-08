@@ -7,36 +7,29 @@ body{
      font-optical-sizing: auto;
      font-weight: 400;
      font-style: normal;
+     background-color: #FFFFFF;
 }
 
-.osnova{
-    width: 1400px;
-    margin: 0 auto;
-}
-
-.container{
-    margin: 0 auto;
-    width: 1400px;
-    background: #FFFFFF;
-
-}
-
-.one_block{
-    padding-left: 125px;
-}
-
-header{
-    width: 1151px;
-    height: 25px;
-    margin: 0 auto;
+.header{
     margin-top: 33px;
+}
+
+.logo{
+    margin-left: 124.65px;
 }
 
 .golovka{
     float: right;
+    margin-right: 124px;
 }
 
-.nav_link{
+.container{
+    max-width: 1400px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.menu__item{
     margin-left: 60px;
     font-size: 18px;
     font-weight: 400;
@@ -62,7 +55,7 @@ h1 {
 }
 
 .interer {
-    background-image: url('one.png');
+    background-image: url('./one.png');
     width: 1150px;
     height: 500px;
     margin: 0px 125px 150px 0px;
@@ -73,7 +66,6 @@ h1 {
 
 .interer-text {
     width: 430px;
-    height: 81px;
     font-size: 17px;
     line-height: 27.32px;
     letter-spacing: 1.2px;
@@ -95,7 +87,6 @@ h2 {
 
 .studya {
     width: 1048px;
-    height: 366px;
     font-size: 45px;
     line-height: 61.47px;
     letter-spacing: -0.03em;
@@ -121,14 +112,9 @@ h2 {
 .proekt-h { 
     margin-bottom: 30px;
     width: 79px;
-    height: 25px;
     font-size: 18px;
     line-height: 24.59px;
     letter-spacing: -0.03px;
-}
-
-.proekt {
-    width: 1150px;
 }
 
 .item{
@@ -137,7 +123,6 @@ h2 {
 
 .item p {
     width: 501px;
-    height: 51px;
     margin-bottom: 15px;
     font-size: 26px;
     line-height: 40.98px;
@@ -146,7 +131,6 @@ h2 {
 .perehod {
     text-decoration: none;
     width: 127px;
-    height: 27px;
     font-size: 20px;
     line-height: 27.32px;
     color: #AD1818;
@@ -175,17 +159,10 @@ h2 {
     color: #FFFFFF;
 }
 
-.container-black{
-    width: 1400px;
-    margin: 0 auto;
-}
-
-.uslugi{   
-    
+.uslugi{ 
     padding: 151px 125px 150px 127px;
-    height: 1844px;
-    margin: 0 auto;
     background-color: #121212;
+    margin: 0 auto;
 }
 
 .uslugi-item{
@@ -212,17 +189,14 @@ h2 {
 }
 
 .zk_lesnoy{
-    width: 1400px;
     height: 717px;
     background-image: url('Rectangle 12.png');
     background-size: no-repeat;
     position: relative;
-    margin: 0 auto;
 }
 
 .zk-txt{
     width: 443px;
-    height: 82px;
     font-size: 30px;
     line-height: 40.98px;
     letter-spacing: -0.03em;
@@ -236,9 +210,6 @@ h2 {
 }
 
 .long{
-    width: 473px;
-    height: 217px;
-   
     margin-top: 186px;
     margin-left: 124px;
     bottom: 150px;
@@ -268,7 +239,6 @@ h2 {
 
 .nomer{
     width: 472px;
-    height: 60px;
     text-decoration: none;
     color: #121212;
     font-size: 60px;
@@ -278,14 +248,13 @@ h2 {
 }
 
 .pochta{
-    height: 60px;
+    width: 412px;
     padding-top: 30px;
     text-align: left;
 }
 
 .pochta-txt{
     width: 412px;
-    height: 60px;
     padding-top: 30px;
     font-size: 60px;
     line-height: 60px;
@@ -296,10 +265,8 @@ h2 {
 }
 
 footer{
-    width: 1400px;
     height: 229px;
     background-color: #121212;
-    margin: 0 auto;
     margin-top: 150px;
 }
 
@@ -309,8 +276,8 @@ footer{
     padding-left: 480px;
 }
 
-.nav_lin{
-    margin-left: 50px;
+.menu__item-link-footer{
+    margin-left: 47px;
     text-align: left;
     font-size: 16px;
     line-height: 24.59px;
