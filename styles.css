@@ -24,7 +24,7 @@ body{
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1180px;
     padding: 0px 15px;
     margin: 0 auto;
 }
@@ -160,9 +160,7 @@ h2 {
 }
 
 .uslugi{ 
-    padding: 151px 125px 150px 127px;
-    background-color: #121212;
-    margin: 0 auto;
+background-color: #121212;
 }
 
 .uslugi-item{
