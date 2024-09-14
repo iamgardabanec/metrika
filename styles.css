@@ -31,7 +31,7 @@ h1 {
     height: 500px;
     top: 278px;
     left: 125px;
-    background-image: url('/one.png');
+    background-image: url('one.png');
     padding: 379px 680px 40px 40px;
     margin-bottom: 150px;
 }
@@ -164,7 +164,7 @@ h2{
 }
 
 .lesnoy{
-    background-image: url('/Rectangle 12.png');
+    background-image: url('Rectangle 12.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -194,7 +194,7 @@ h2{
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url('/phone.png');
+    background-image: url('phone.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 13px;
