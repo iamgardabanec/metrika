@@ -2,298 +2,251 @@ html{
     scroll-behavior:smooth;}
 
 body{
-
-     font-family: "Manrope", sans-serif;
-     font-optical-sizing: auto;
-     font-weight: 400;
-     font-style: normal;
-     background-color: #FFFFFF;
-}
-
-.header{
-    margin-top: 33px;
-}
-
-.logo{
-    margin-left: 124.65px;
-}
-
-.golovka{
-    float: right;
-    margin-right: 124px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
 .container{
-    max-width: 1180px;
-    padding: 0px 15px;
+    max-width: 1400px;
+    padding: 0px 125px;
     margin: 0 auto;
 }
 
-.menu__item{
-    margin-left: 60px;
+h1 {
+    width: 956px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #121212;
+    margin-bottom: 30px;
+}
+
+.interior{
+    width: 1150px;
+    height: 500px;
+    top: 278px;
+    left: 125px;
+    background-image: url('one.png');
+    padding: 379px 680px 40px 40px;
+    margin-bottom: 150px;
+}
+
+.interior_text{
+    width: 430px;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.about{
+    margin-bottom: 150px;
+}
+
+h2{    
     font-size: 18px;
-    font-weight: 400;
     line-height: 24.59px;
     letter-spacing: -0.03em;
     text-align: left;
-    text-decoration: none;
-    color: #121212;
+    margin-bottom: 30px;
 }
 
-.nav_link:hover{
-    opacity: 0.5;
-    border-bottom: 1px solid #000000;
-}
-
-h1 {
-    color: #121212;
-    font-size: 60px;
-    line-height: 60px;
-    margin: 70px 319px 30px 0px;
-    width: 956px;
-    letter-spacing: -0.03em;
-}
-
-.interer {
-    background-image: url('./one.png');
-    width: 1150px;
-    height: 500px;
-    margin: 0px 125px 150px 0px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative
-}
-
-.interer-text {
-    width: 430px;
-    font-size: 17px;
-    line-height: 27.32px;
-    letter-spacing: 1.2px;
-    color: #FFFFFF;
-    position: absolute;
-    top: 379px;
-    left: 40px;
-    bottom: 40px;
-
-}
-
-h2 {
-    width: 51px;
-    font-size: 18px;
-    line-height: 24.59px;
-    letter-spacing: -0.03em;
-    margin: 0px 0px 30px 0px;
-}
-
-.studya {
+.about_text{
     width: 1048px;
     font-size: 45px;
     line-height: 61.47px;
     letter-spacing: -0.03em;
-    margin: 0px 224px 30px 0px;
+    text-align: left;
+    color: #121212;
+    margin-bottom: 30px;
 }
 
-.knopka {
+.about_btn{
     display: inline-block;
-    margin: 0px 1020px 150px 0px;
     width: 255px;
     height: 67px;
-    background: #AD1818;
-    border-radius: 5px;
+    font-size: 19px;
+    line-height: 27.32px;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
     text-align: center;
     color: #FFFFFF;
-    line-height: 27.32px;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    text-decoration: none;
-    padding: 20px 40px 20px 40px;
+    background-color: #AD1818;
 }
 
-.proekt-h { 
-    margin-bottom: 30px;
-    width: 79px;
-    font-size: 18px;
-    line-height: 24.59px;
-    letter-spacing: -0.03px;
-}
-
-.item{
+.project{
     margin-bottom: 90px;
 }
 
-.item p {
-    width: 501px;
-    margin-bottom: 15px;
-    font-size: 26px;
-    line-height: 40.98px;
+.project_img{
+    width: 1150px;
+    height: 450px;
 }
 
-.perehod {
-    text-decoration: none;
+.project_text{
+    width: 542px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin: 15px 0px 15px 0px;
+}
+
+.project_btn{
     width: 127px;
     font-size: 20px;
     line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-decoration: none;
     color: #AD1818;
-
 }
 
-.look {
-    display: block;
+.projects_btn{
+    display: inline-block;
+    border: 1px solid red;
     width: 1150px;
     height: 153px;
     border-radius: 5px;
-    border: 1px solid red;
-    background-color: #FFFFFF;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
     text-align: center;
+    text-decoration: none;
     padding: 56px 0px 56px 0px;
     color: #AD1818;
-    line-height: 40.98px;
-    font-size: 30px;
-    text-decoration: none;
     margin-bottom: 150px;
-    cursor: pointer;
 }
 
-.look:hover{
+.projects_btn:hover{
     background-color: #AD1818;
     color: #FFFFFF;
 }
 
-.uslugi{ 
-background-color: #121212;
+.container_black{
+    background-color: #121212;
+    max-width: 1400px;
+    padding: 151px 125px 150px 125px;
+    margin: 0 auto;
 }
 
-.uslugi-item{
-    margin-bottom: 60px;
-}
-
-.uslugi-txt {
-    width: 66px;
-    height: 25px;
+.uslugi_h2{
+    width: 51px;
     font-size: 18px;
     line-height: 24.59px;
     letter-spacing: -0.03em;
+    text-align: left;
     margin-bottom: 34px;
     color: #FFFFFF;
 }
 
-.usl-par{
-    height: 41px;
+.uslugi{
+    margin-bottom: 60px;
+}
+
+.uslugi_img{
+    width: 1150px;
+    height: 270px;
+    margin-bottom: 15px;
+}
+
+.uslugi_text{
     font-size: 30px;
     line-height: 40.98px;
     letter-spacing: -0.03em;
+    text-align: left;
     color: #FFFFFF;
-    margin-top: 15px;
 }
 
-.zk_lesnoy{
-    height: 717px;
+.lesnoy{
     background-image: url('Rectangle 12.png');
-    background-size: no-repeat;
-    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 575px 832px 60px 125px;
 }
 
-.zk-txt{
+.lesnoy_text{
     width: 443px;
     font-size: 30px;
     line-height: 40.98px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #FFFFFF;
-    position: absolute;
-    top: 575px;
-    left: 125px;
-    bottom: 60px;
-    right: 832px;
 }
 
-.long{
-    margin-top: 186px;
-    margin-left: 124px;
-    bottom: 150px;
-
-}
-.phone{
-    width: 90px;
-    height: 25px;
-}
-
-.phone:before{
-    content: '';
-    display: block;
-    background-image: url('phone.png');
-    width: 24px;
-    height: 24px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: -4px;
-    margin-bottom: 12px;
-}
-
-.nomber{
-    padding-top: 57px;
-}
-
-
-.nomer{
-    width: 472px;
-    text-decoration: none;
-    color: #121212;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -0.03em;
-    text-align: left;
-}
-
-.pochta{
-    width: 412px;
-    padding-top: 30px;
-    text-align: left;
-}
-
-.pochta-txt{
-    width: 412px;
-    padding-top: 30px;
-    font-size: 60px;
-    line-height: 60px;
-    text-decoration: none;
-    color: #121212;
-    border-bottom: 2px solid #121212;
-    opacity: 50%;
-}
-
-footer{
-    height: 229px;
-    background-color: #121212;
+.contacts{
+    width: 473px;
+    height: 242px;
     margin-top: 150px;
 }
-
-.footer-nav{
-    padding-right: 470px;
-    padding-top: 60px;
-    padding-left: 480px;
+.contacts_phone{
+    margin-top: 13px;
 }
 
-.menu__item-link-footer{
-    margin-left: 47px;
+.contacts_phone:before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('phone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 13px;
+    margin-left: -4px;
+}
+
+.contacts_nomber{
+    margin-bottom: 30px;
+}
+
+.contacts_nomber-href{
+    width: 472px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
     text-align: left;
-    font-size: 16px;
+    text-decoration: none;
+    color: #121212;
+}
+
+.contacts_mail{
+    width: 412px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 2px solid #121212;
+    color: #121212;
+    opacity: 50%;
+    margin-top: 30px;
+}
+
+header{
+    margin-bottom: 73px;
+}
+.menu{
+    display: inline-block;
+    float: right;
+}
+
+.menu_li{
+    float: left;
+    margin-left: 60px;
+}
+
+.menu_nav{
+    width: 79px;
+    font-size: 18px;
     line-height: 24.59px;
     letter-spacing: -0.03em;
+    text-align: left;
+    color: #121212;
     text-decoration: none;
-    color: #FFFFFF;
-}
-
-.nav_lin:nth-child(1){
-margin-left: 0px;}
-
-.footer-end{
-    font-size: 20px;
-    line-height: 27.32px;
-    letter-spacing: -0.03em;
-    opacity: 50%;
-    color: #FFFFFF;
-    margin-top: 87px;
-    text-align: center;
-
 }
