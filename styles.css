@@ -1,48 +1,77 @@
-html{
-    scroll-behavior:smooth;}
-
 body{
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    width: 100%;
     background-color: #FFFFFF;
 }
 
 .container{
-    max-width: 1400px;
-    padding: 0px 125px;
+    max-width: 1180px;
+    padding: 0px 15px;
     margin: 0 auto;
 }
 
-h1 {
+header{
+    margin-bottom: 70px;
+    margin-top: 32px;
+}
+
+.menu__block{
+    margin-left: 558px;
+}
+
+.menu__nav{
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-decoration: none;
+    color: #121212;
+    margin-left: 60px;
+    float: right;
+}
+
+.menu__nav:hover{
+    opacity: 0.5;
+    border-bottom: 1px solid #121212;
+}
+
+.menu__img{
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.hero{
+    margin-bottom: 150px;
+}
+
+.hero__title {
     width: 956px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
-    text-align: left;
     color: #121212;
     margin-bottom: 30px;
 }
 
-.interior{
-    width: 1150px;
+.hero__box{
+    width: 100%;
     height: 500px;
-    top: 278px;
-    left: 125px;
-    background-image: url('./one.png');
-    padding: 379px 680px 40px 40px;
-    margin-bottom: 150px;
+    background-image: url('one.png');
+    position: relative;
 }
 
-.interior_text{
+.hero__text{
     width: 430px;
     font-size: 20px;
     line-height: 27.32px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #FFFFFF;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
 }
 .about{
     margin-bottom: 150px;
@@ -56,7 +85,7 @@ h2{
     margin-bottom: 30px;
 }
 
-.about_text{
+.about__text{
     width: 1048px;
     font-size: 45px;
     line-height: 61.47px;
@@ -66,7 +95,7 @@ h2{
     margin-bottom: 30px;
 }
 
-.about_btn{
+.about__btn{
     display: inline-block;
     width: 255px;
     height: 67px;
@@ -79,16 +108,16 @@ h2{
     background-color: #AD1818;
 }
 
-.project{
+.projects__box{
     margin-bottom: 90px;
 }
 
-.project_img{
+.projects__img{
     width: 1150px;
     height: 450px;
 }
 
-.project_text{
+.projects__text{
     width: 542px;
     font-size: 30px;
     line-height: 40.98px;
@@ -97,7 +126,7 @@ h2{
     margin: 15px 0px 15px 0px;
 }
 
-.project_btn{
+.projects__btn{
     width: 127px;
     font-size: 20px;
     line-height: 27.32px;
@@ -107,7 +136,7 @@ h2{
     color: #AD1818;
 }
 
-.projects_btn{
+.projects__look-btn{
     display: inline-block;
     border: 1px solid red;
     width: 1150px;
@@ -123,19 +152,18 @@ h2{
     margin-bottom: 150px;
 }
 
-.projects_btn:hover{
+.projects__look-btn:hover{
     background-color: #AD1818;
     color: #FFFFFF;
 }
 
-.container_black{
+.services{
     background-color: #121212;
-    max-width: 1400px;
-    padding: 151px 125px 150px 125px;
-    margin: 0 auto;
+    padding: 150px 0px;
+
 }
 
-.uslugi_h2{
+.services__h2{
     width: 51px;
     font-size: 18px;
     line-height: 24.59px;
@@ -145,17 +173,17 @@ h2{
     color: #FFFFFF;
 }
 
-.uslugi{
+.services__box{
     margin-bottom: 60px;
 }
 
-.uslugi_img{
+.services__img{
     width: 1150px;
     height: 270px;
     margin-bottom: 15px;
 }
 
-.uslugi_text{
+.services__text{
     font-size: 30px;
     line-height: 40.98px;
     letter-spacing: -0.03em;
@@ -181,15 +209,16 @@ h2{
 }
 
 .contacts{
-    width: 473px;
     height: 242px;
     margin-top: 150px;
+    margin-bottom: 150px;
+    padding-left: 124px;
 }
 .contacts_phone{
     margin-top: 13px;
 }
 
-.contacts_phone:before{
+.contacts__phone:before{
     content: '';
     display: block;
     width: 24px;
@@ -201,26 +230,24 @@ h2{
     margin-left: -4px;
 }
 
-.contacts_nomber{
+.contacts__nomber{
     margin-bottom: 30px;
 }
 
-.contacts_nomber-href{
+.contacts__nomber-href{
     width: 472px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
-    text-align: left;
     text-decoration: none;
     color: #121212;
 }
 
-.contacts_mail{
+.contacts__mail{
     width: 412px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
-    text-align: left;
     text-decoration: none;
     border-bottom: 2px solid #121212;
     color: #121212;
@@ -228,25 +255,40 @@ h2{
     margin-top: 30px;
 }
 
-header{
-    margin-bottom: 73px;
+.end{
+    background-color: #121212;
+    padding: 60px 0px 30px 0px;
 }
-.menu{
+
+.end__nav{
+    width: 450px;
     display: inline-block;
-    float: right;
+    margin-left: 395px;
+    padding-bottom: 87px;
 }
 
-.menu_li{
-    float: left;
-    margin-left: 60px;
-}
-
-.menu_nav{
-    width: 79px;
+.end__btn{
     font-size: 18px;
     line-height: 24.59px;
     letter-spacing: -0.03em;
     text-align: left;
-    color: #121212;
     text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 53px;
+    float: right;
+}
+
+.end__btn:first-child{
+    margin-right: 0px;
+}
+
+.end__text{
+    width: 388px;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 50%;
+    margin-left: 429px;
 }
