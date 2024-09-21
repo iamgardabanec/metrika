@@ -1,3 +1,5 @@
+
+
 body{
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
@@ -261,16 +263,18 @@ h2{
 }
 
 .end__nav{
+    width: 450px;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    gap: 53px;
+    padding-bottom: 87px;
+    margin-left: 390px;
 }
 
 .end__btn{
-color: #FFFFFF;
-margin: 0px 0px 0px 0px;
+    color: #FFFFFF;
+    margin: 0px;
 }
-
-
 
 .end__text{
     width: 388px;
