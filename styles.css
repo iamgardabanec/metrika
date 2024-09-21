@@ -261,26 +261,16 @@ h2{
 }
 
 .end__nav{
-    width: 450px;
-    display: inline-block;
-    margin-left: 395px;
-    padding-bottom: 87px;
+    display: flex;
+    justify-content: center
 }
 
 .end__btn{
-    font-size: 18px;
-    line-height: 24.59px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    text-decoration: none;
-    color: #FFFFFF;
-    margin-right: 53px;
-    float: right;
+color: #FFFFFF;
+margin: 0px 0px 0px 0px;
 }
 
-.end__btn:first-child{
-    margin-right: 0px;
-}
+
 
 .end__text{
     width: 388px;
