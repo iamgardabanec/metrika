@@ -1,0 +1,16 @@
+.lesnoy{
+    background-image: url('../resourses/Rectangle 12.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 575px 832px 60px 125px;
+}
+
+.lesnoy_text{
+    width: 443px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
