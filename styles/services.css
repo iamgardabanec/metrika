@@ -14,20 +14,91 @@
     color: #FFFFFF;
 }
 
-.services__box{
-    margin-bottom: 60px;
+.services__column{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 85px;
+    justify-content: space-between;
 }
 
-.services__img{
-    width: 1150px;
-    height: 270px;
+.services__box{
+    width: calc(50% - 5.5px);
+    height: 455px;
+    position: relative;
+}
+
+.services__box-img{
+    width: 100%;
+    height: 389px;
     margin-bottom: 15px;
 }
 
-.services__text{
+.box__img-one{
+    background-image: url('../resourses/Rectangle\ 2 (1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box__img-two{
+    background-image: url('../resourses/Rectangle\ 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box__img-three{
+    background-image: url('../resourses/Rectangle\ 4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box__img-four{
+    background-image: url('../resourses/Rectangle\ 5 (1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services__box-price{
+    width: 163px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #AD1818;
+    padding: 5px 21px;
+    color: #FFFFFF;
+    top: 36px;
+    left: 50px;
+}
+
+.price-three{
+    width: 193px;
+    padding: 5px 20px;
+}
+
+.price-four{
+    width: 211px;
+}
+
+.services__box-text{
+    width: 247px;
     font-size: 30px;
     line-height: 40.98px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #FFFFFF;
+}
+
+.services__btn{
+    width: 100%;
+    height: 153px;
+    display: block;
+    background-color: #AD1818;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 56px 0px;
+    text-align: center;
+    margin-top: 164px;
 }

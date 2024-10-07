@@ -3,19 +3,19 @@ header{
     margin-top: 32px;
 }
 
-.menu__block{
-    margin-left: 558px;
+.menu__ul{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 60px;
+    float: right;
 }
 
 .menu__nav{
     font-size: 18px;
     line-height: 24.59px;
     letter-spacing: -0.03em;
-    text-align: left;
     text-decoration: none;
     color: #121212;
-    margin-left: 60px;
-    float: right;
 }
 
 .menu__nav:hover{
