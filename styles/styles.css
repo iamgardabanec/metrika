@@ -33,20 +33,11 @@ h2{
     margin-bottom: 30px;
 }
 
-@media (max-width: 1199px) {
-    .container{
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 0px 17px;
-    }
-
-}
-
 @media (max-width: 768px) {
     .container{
         max-width: 100%;
         margin: 0 auto;
-        padding: 0px 13px;
+        padding: 0px 12px;
     }
 
     h2{    

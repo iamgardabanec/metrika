@@ -50,7 +50,7 @@
     color: #FFFFFF;
 }
 
-@media (max-width: 1199px){     
+@media (max-width: 961px){     
     .projects__row{
         gap: 80px;
     }
