@@ -6,6 +6,7 @@
 @import "../styles/gallery.css";
 @import "../styles/footer.css";
 @import "../styles/contacts.css";
+@import "../styles/review.css";
 
 html{
     scroll-behavior: smooth;
