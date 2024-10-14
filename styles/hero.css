@@ -3,7 +3,7 @@
 }
 
 .hero__title {
-    width: 956px;
+    max-width: 956px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
@@ -22,7 +22,7 @@
 }
 
 .hero__text{
-    width: 430px;
+    max-width: 430px;
     font-size: 20px;
     line-height: 27.32px;
     letter-spacing: -0.03em;
@@ -43,7 +43,7 @@
     }
 
     .hero__title {
-        width: 802px;
+        max-width: 802px;
         font-size: 50px;
     }
 
@@ -58,13 +58,13 @@
     }
 
     .hero__title {
-        width: 326px;
+        max-width: 326px;
         line-height: 31.62px;
         font-size: 30px;
     }
 
     .hero__text{
-        width: 312px;
+        max-width: 312px;
         font-size: 16px;
         line-height: 21.86px;
         bottom: 15px;

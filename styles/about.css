@@ -3,7 +3,7 @@
 }
 
 .about__text{
-    width: 1048px;
+    max-width: 1048px;
     font-size: 45px;
     line-height: 61.47px;
     letter-spacing: -0.03em;
@@ -32,7 +32,7 @@
     }
 
     .about__text{
-        width: 690px;
+        max-width: 690px;
         font-size: 35px;
         line-height: 47.81px;
     }
@@ -44,13 +44,12 @@
     }
 
     .about__text{
-        width: 361px;
         font-size: 23px;
         line-height: 30.05px;
     }
 
     .about__btn{
-        width: 194px;
+        max-width: 194px;
         height: 51px;
         font-size: 15px;
         line-height: 21.86px;
