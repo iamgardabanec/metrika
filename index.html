@@ -48,53 +48,53 @@
         <section class="projects" id="projects-nav"> 
             <div class="container">
             <h2>ПРОЕКТЫ</h2>
-            <div class="projects__row">
-            <div class="projects__box">
+            <ul class="projects__row">
+            <li class="projects__box">
                 <img class="projects__img" src="./resourses/Rectangle 2.png" alt="жк правобережный">
                 <p class="projects__text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
                 <a href="/" class="projects__btn">Подробнее →</a>
-            </div>
-            <div class="projects__box">
+            </li>
+            <li class="projects__box">
                 <img class="projects__img" src="./resourses/Rectangle 7.png" alt="жк правобережный">
                 <p class="projects__text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
                 <a href="/" class="projects__btn">Подробнее →</a>
-            </div>
-            <div class="projects__box">
+            </li>
+            <li class="projects__box">
                 <img class="projects__img" src="./resourses/Rectangle 8.png" alt="жк правобережный">
                 <p class="projects__text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
                 <a href="/" class="projects__btn">Подробнее →</a>
-            </div>
-        </div>
+            </li>
+        </ul>
             <a href="/" class="projects__look-btn">Смотреть все проекты</a>
     </div>
         </section>
 
-    <section id="services" class="services">
+    <section class="services">
         <div class="container">
-        <h2 class="services__h2">УСЛУГИ</h2>
-    <div class="services__column">
-        <div class="services__box">
+        <h2 id="services" class="services__h2">УСЛУГИ</h2>
+    <ul class="services__column">
+        <li class="services__box">
             <div class="services__box-img box__img-one"><img class="box__img" src="./resourses/Rectangle 2 (1).png" alt=""></div>
             <p class="services__box-price">от 2500₽/м²</p>
         <p class="services__box-text">Планировочное решение</p>
-        </div>
+        </li>
 
-        <div class="services__box">
+        <li class="services__box">
             <div class="services__box-img box__img-two"><img class="box__img" src="./resourses/Rectangle 3.png" alt=""></div>
             <p class="services__box-price">от 3000₽/м²</p>
             <p class="services__box-text">Дизайн-проект</p>
-        </div>
-        <div class="services__box">
+        </li>
+        <li class="services__box">
             <div class="services__box-img"><img class="box__img" src="./resourses/Rectangle 4.png" alt=""></div>
             <p class="services__box-price price-three">от 30 000₽/мес</p>
             <p class="services__box-text">Авторский надзор</p>
-        </div>
-        <div class="services__box">
+        </li>
+        <li class="services__box">
             <div class="services__box-img"><img class="box__img" src="./resourses/Rectangle 5 (1).png" alt=""></div>
             <p class="services__box-price price-four">5% от стоимости</p>
             <p class="services__box-text">Комплектация</p>
-        </div>
-    </div>
+        </li>
+    </ul>
     <a class="services__btn" href="/">Заказать услугу</a>
     </div>
     </section>
@@ -122,9 +122,50 @@
         </div>
     </section>
 
-    <div class="lesnoy">
-        <p class="lesnoy_text">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
-    </div>
+    <section class="gallery-section">
+        <div class="gallery__slides">
+            <div class="container">
+                <h2 class="gallery__slides-title">ГАЛЕРЕЯ ПРОЕКТОВ</h2>
+            </div>
+            <div class="gallery__slide gallery__slide-active">
+                <div class="gallery__box box__lesnoy">      
+                    <div class="container"> 
+                        <p class="gallery__title">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
+                    </div>
+            </div>
+
+            </div>
+            <div class="gallery__slide">
+                <div class="gallery__box box__mayak">                    
+                    <div class="container"> 
+                        <p class="gallery__title">Проект гостиной в ЖК Маяк</p> 
+                    </div>
+            </div>
+            </div>
+
+            <div class="gallery__slide">
+                <div class="gallery__box box__room">
+                    <div class="container"> 
+                        <p class="gallery__title">Визуализация кухни-гостиной в частном доме</p> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery__slide">
+                <div class="gallery__box box__wind">
+                    <div class="container"> 
+                        <p class="gallery__title">Проект кухни в скандинавском стиле для ЖК Северный Ветер</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="gallery__controls">
+                    <button class="gallery__controls-prev"><</button>
+                    <button class="gallery__controls-next">></button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact" class="contacts">
         <div class="container">
@@ -151,5 +192,6 @@
         </div>
 </footer>
 
+<script src="./styles/gallery.js"></script>
 </body>
 </html>
