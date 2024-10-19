@@ -131,7 +131,7 @@
 
     .gallery__controls{ 
         width: 100%;
-        bottom: 50%;
+        bottom: 40%;
         gap: 0px;
         left: 0px;
         justify-content: space-between;

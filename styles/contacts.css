@@ -1,13 +1,13 @@
 .contacts{
-    margin-top: 150px;
-    margin-bottom: 150px;
-    padding-left: 124px;
+    padding: 150px 0px;
 }
-.contacts_phone{
-    margin-top: 13px;
+.contacts__phone{
+    margin-bottom: 74px;
+    position: relative;
 }
 
-.contacts__phone:before{
+
+.contacts__phone:after{
     content: '';
     display: block;
     width: 24px;
@@ -15,15 +15,16 @@
     background-image: url('../resourses/phone.png');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 13px;
-    margin-left: -4px;
+    position: absolute;
+    top: 49px;
+}
+
+.contacts__box{
+    display: inline-flex;
+    gap: 104px;
 }
 
 .contacts__nomber{
-    margin-bottom: 30px;
-}
-
-.contacts__nomber-href{
     max-width: 472px;
     font-size: 60px;
     line-height: 60px;
@@ -32,14 +33,35 @@
     color: #121212;
 }
 
+.contacts__nomber:hover{
+    opacity: 50%;
+    border-bottom: 2px solid #121212;
+}
+
 .contacts__mail{
     max-width: 412px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
     text-decoration: none;
-    border-bottom: 2px solid #121212;
     color: #121212;
-    opacity: 50%;
     margin-top: 30px;
+    position: relative;
+}
+
+.contacts__mail:before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../resourses/Vector.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -15px;
+}
+
+.contacts__mail:hover{
+    opacity: 50%;
+    border-bottom: 2px solid #121212;
 }
