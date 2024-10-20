@@ -6,8 +6,26 @@
     position: relative;
 }
 
+.contacts__box{
+    display: inline-flex;
+    gap: 104px;
+}
 
-.contacts__phone:after{
+.contacts__nomber-href{
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #121212;
+    position: relative;
+}
+
+.contacts__nomber-href:hover{
+    opacity: 50%;
+    border-bottom: 2px solid #121212;
+}
+
+.contacts__nomber-href:before{
     content: '';
     display: block;
     width: 24px;
@@ -16,36 +34,15 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 49px;
-}
-
-.contacts__box{
-    display: inline-flex;
-    gap: 104px;
-}
-
-.contacts__nomber{
-    max-width: 472px;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -0.03em;
-    text-decoration: none;
-    color: #121212;
-}
-
-.contacts__nomber:hover{
-    opacity: 50%;
-    border-bottom: 2px solid #121212;
+    bottom: 85px;
 }
 
 .contacts__mail{
-    max-width: 412px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
     text-decoration: none;
     color: #121212;
-    margin-top: 30px;
     position: relative;
 }
 
@@ -58,10 +55,66 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: -15px;
+    bottom: 85px;
 }
 
 .contacts__mail:hover{
     opacity: 50%;
     border-bottom: 2px solid #121212;
+}
+
+@media (max-width: 961px) {
+    .contacts{
+        padding: 120px 0px 80px 0px;
+    }
+
+    .contacts__box{
+        flex-wrap: wrap;
+        gap: 114px;
+    }
+    
+    .contacts__nomber-href{
+        font-size: 45px;
+    }
+
+    .contacts__mail{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 550px) {
+    .contacts{
+        padding: 80px 0px;
+    }
+
+    .contacts__phone{
+        margin-bottom: 58px;
+    }
+
+    .contacts__box{
+        flex-wrap: wrap;
+        gap: 58px;
+    }
+
+    .contacts__nomber-href{
+        font-size: 35px;
+        line-height: 45.62px;
+    }
+
+    .contacts__nomber-href:before{
+        width: 18px;
+        height: 18px;
+        bottom: 66px;
+    }
+
+    .contacts__mail{
+        font-size: 35px;
+        line-height: 45.62px;
+    }
+
+    .contacts__mail:before{
+        width: 18px;
+        height: 18px;
+        bottom: 66px;
+    }
 }
