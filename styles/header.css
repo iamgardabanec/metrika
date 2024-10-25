@@ -3,11 +3,22 @@ header{
     margin-top: 32px;
 }
 
+.menu{
+    display: flex;
+    justify-content: space-between
+}
+
 .menu__ul{
     display: flex;
     flex-direction: row-reverse;
     gap: 60px;
     float: right;
+}
+
+.burger-btn{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .menu__nav{
@@ -28,6 +39,83 @@ header{
     height: 21.42px;
 }
 
+.burger{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease;
+    z-index: 3;
+}
+
+.burger_open{
+    opacity: 1;
+    visibility: visible;
+}
+
 @media (max-width: 961px){
-    
+    .menu__block{
+        display: none;
+    }
+
+    .burger-btn{
+        display: block;
+        width: 50px;
+        height: 10px;
+        background-color: #121212;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .burger__content{
+        width: 274px;
+        height: 100%;
+        background-color: white;
+    }
+
+    .burger-btn-close{
+        width: 20px;
+        height: 20px;
+        margin: 20px 20px 0px 220px;
+    }
+
+    .menu__burger-img{
+        margin: 80px 0px 50px 30px;
+    }
+
+    .menu__ul-burger{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 30px;
+    }
+
+    .burger__text{
+        opacity: 50%;
+        margin: 90px 0px 0px 33px;
+        font-size: 16px;
+        line-height: 21.86px;
+        letter-spacing: -0.03em;
+    }
+
+    .burger__nomber{
+        font-size: 20px;
+        line-height: 45.62px;
+        letter-spacing: -0.03em;
+        margin-left: 33px;
+    }
+
+    .burger__mail{
+        font-size: 20px;
+        line-height: 60px;
+        letter-spacing: -0.03em;
+        margin-left: 33px;
+    }
+
 }
