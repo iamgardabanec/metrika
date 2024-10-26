@@ -42,7 +42,6 @@
 
 .popup__text{
     font-size: 18px;
-    font-weight: 400;
     line-height: 24.59px;
     letter-spacing: -0.03em;
     text-align: center;
@@ -76,4 +75,47 @@
     color: #fff;
     margin-left: 59px;
     margin-bottom: 86px;
+}
+
+@media (max-width: 550px) {
+    .popup__content{
+        width: 361px;
+        height: 571px;
+    }
+
+    .popup__content-btn{
+        top: 40px;
+        right: 29px;
+    }
+    
+    .popup__title{
+        font-size: 25px;
+        line-height: 34.15px;
+        margin: 80px 0px 11px 0px;
+    }
+    
+    .popup__text{
+        width: 209px;
+        height: 24px;
+        font-size: 14px;
+        line-height: 19.12px;
+        margin: 0 auto;
+    }
+    
+    .popup__input{
+        gap: 40px;
+        margin: 70px 24px 60px 16px;
+    }
+    
+    .input{
+        font-size: 18px;
+        line-height: 24.59px;
+    }
+    
+    .send{
+        width: 329px;
+        height: 67px;
+        margin-left: 16px;
+        margin-bottom: 0px;
+    }
 }
